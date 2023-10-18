@@ -142,9 +142,15 @@ img {
     }
 
     header {
-        height:9vh;
+        height:7vh;
     
     }
+ .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7.5vh;
+}
     .sidebar {
         width: 100%;
         overflow-x: auto;
