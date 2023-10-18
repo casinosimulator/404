@@ -28,11 +28,11 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #000;
+    background-color: #1a1919;
 }
 
 header {
-    background-color: #310808;
+    background-color: #000;
     height: 12vh;
     position: fixed;
     top: 0;
