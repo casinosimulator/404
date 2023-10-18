@@ -28,11 +28,11 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #000;
+    background-color: #1a1919;
 }
 
 header {
-    background-color: #310808;
+    background-color: #000;
     height: 10.5vh;
     position: fixed;
     top: 0;
@@ -51,7 +51,7 @@ img {
     }
 .sidebar {
     width: 22%;
-    background-color: #000;
+    background-color: #1a1919;
     box-shadow: 1px 0px rgba(200, 200, 200, 0.5);
     position: fixed;
     top: 12.4vh;
