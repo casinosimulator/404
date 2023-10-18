@@ -1,0 +1,198 @@
+ /* Estilizando a barra de rolagem vertical */
+ ::-webkit-scrollbar {
+    width: 1px; /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #9daab6; /* Cor da barra de rolagem */
+}
+
+::-webkit-scrollbar-track {
+    background: #666; /* Cor da trilha da barra de rolagem */
+}
+
+/* Estilizando a barra de rolagem horizontal (opcional) */
+::-webkit-scrollbar-horizontal {
+    height: 1px; /* Altura da barra de rolagem horizontal */
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    background: #666; /* Cor da barra de rolagem horizontal */
+}
+
+::-webkit-scrollbar-track:horizontal {
+    background: #9daab6; /* Cor da trilha da barra de rolagem horizontal */
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+header {
+    background-color: #310808;
+    height: 12vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid white; /* Adiciona a borda branca fina na parte inferior */
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10.5vh;
+}
+
+.sidebar {
+    width: 22%;
+    background-color: #000;
+    box-shadow: 1px 0px rgba(200, 200, 200, 0.5);
+    position: fixed;
+    top: 12.4vh;
+    bottom: 0;
+    overflow: auto;
+}
+
+.content {
+    width: 75%;
+    margin-left: 22%;
+    padding: 20px;
+}
+ul {
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o preenchimento padrão da lista */
+}
+
+li {
+    color: #fff; /* Texto preto */
+    padding: 5px; /* Espaçamento interno para melhorar a aparência */
+    margin: 7px 0; /* Espaçamento vertical entre os itens da lista */
+    margin-left:20px;
+    margin-right:20px;
+    text-align: center; /* Centraliza o texto horizontalmente */
+    transition: background-color 0.3s; /* Efeito de transição suave */
+    border-radius:10px;
+    font-size:25px;
+}
+
+li:hover {
+    background-color: #ddd; /* Fundo cinza mais escuro no hover */
+    color:#333333;
+}
+li.select  {
+    background-color: #ddd; /* Fundo cinza mais escuro no hover */
+    color:#333333;
+    text-decoration: none;
+}
+a {color:white;
+    text-decoration: none;
+}
+li.select a {
+    background-color: #ddd; /* Fundo cinza mais escuro no hover */
+    color:#333333;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    width: 19%;
+    margin: 1%;
+    float: left;
+}
+
+.column img {
+    width: 100%;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 12vh;
+}
+
+.image-container a {
+    flex: 0 0 calc(20% - 10px); /* 20% para cada imagem com uma margem de 10px entre elas */
+    margin: 5px;
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    border-radius: 10px;
+}
+
+
+@media (max-width: 768px) {
+    
+    ::-webkit-scrollbar {
+        width: 10px;
+        height:2px;
+    }
+
+    header {
+        height:9vh;
+    
+    }
+    .sidebar {
+        width: 100%;
+        overflow-x: auto;
+        height: 8.5vh;
+        margin-top: -3vh;
+    }  
+    .sidebar ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        white-space: nowrap; /* Impede que os itens quebrem para a próxima linha */
+    }
+    
+    .sidebar li {
+        display: inline-block;
+        text-align: center;
+        border: 1px solid #ccc;
+        margin: 5px;
+        padding: 10px;
+    }
+    li {
+        color: #fff; /* Texto preto */
+        padding: 5px; /* Espaçamento interno para melhorar a aparência */
+        margin: 7px 0; /* Espaçamento vertical entre os itens da lista */
+        margin-left:20px;
+        margin-right:20px;
+        text-align: center; /* Centraliza o texto horizontalmente */
+        transition: background-color 0.3s; /* Efeito de transição suave */
+        border-radius:10px;
+        font-size:20px;
+    }
+    img {
+        width: 400px;
+    }
+    .image-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-top: 20vh;
+    }
+    .image-container a {
+        flex: 0 0 calc(33.3% - 10px); /* 20% para cada imagem com uma margem de 10px entre elas */
+        margin: 5px;
+        text-align: center;
+    }
+    .content {
+        width: 100%;
+        margin-left: 0px;
+        padding:0px;
+}
+}
