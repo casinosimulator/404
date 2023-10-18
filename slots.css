@@ -174,7 +174,7 @@ img {
         text-align: center; /* Centraliza o texto horizontalmente */
         transition: background-color 0.3s; /* Efeito de transição suave */
         border-radius:10px;
-        font-size:20px;
+        font-size:15px;
     }
     img {
         width: 400px;
