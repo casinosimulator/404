@@ -154,7 +154,7 @@ img {
     .sidebar {
         width: 100%;
         overflow-x: auto;
-        height: 4vh;
+        height: 6vh;
         margin-top: -5vh;
     }  
     .sidebar ul {
