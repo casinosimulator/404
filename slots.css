@@ -46,7 +46,9 @@ header {
     align-items: center;
     height: 11vh;
 }
-
+img {
+        width: 500px;
+    }
 .sidebar {
     width: 22%;
     background-color: #000;
