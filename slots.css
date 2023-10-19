@@ -157,7 +157,7 @@ img:hover {
     .sidebar {
         width: 100%;
         overflow-x: auto;
-        height: 6vh;
+        height: 8vh;
         margin-top: -3vh;
     } 
     .sidebar img {width:135px;}
