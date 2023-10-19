@@ -173,11 +173,11 @@ img:hover {
         display: inline-block;
         text-align: center;
         margin: 5px;
-        box-shadow: 1px 1px 1px 1px rgba(200, 200, 200, 0.7);
+        border: 2px solid #fff;
         padding: 2px;
     }
  img.selected {
-    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+    box-shadow:none;
 }
     li {
         color: #fff; /* Texto preto */
