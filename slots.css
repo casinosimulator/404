@@ -159,7 +159,8 @@ img:hover {
         overflow-x: auto;
         height: 6vh;
         margin-top: -3vh;
-    }  
+    } 
+    .sidebar img {width:135px;}
     .sidebar ul {
         list-style: none;
         padding: 0;
