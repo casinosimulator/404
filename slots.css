@@ -28,7 +28,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #1a1919;
+    background-color: #192733;
 }
 
 header {
@@ -51,7 +51,7 @@ img {
     }
 .sidebar {
     width: 22%;
-    background-color: #1a1919;
+    background-color: #192733;
     box-shadow: 1px 0px rgba(200, 200, 200, 0.5);
     position: fixed;
     top: 10.6vh;
@@ -81,15 +81,12 @@ li {
     font-size:25px;
 }
 
-li:hover {
-    background-color: #ddd; /* Fundo cinza mais escuro no hover */
-    color:#333333;
+img.selected {
+    transform: scale(1.03);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-li.select  {
-    background-color: #ddd; /* Fundo cinza mais escuro no hover */
-    color:#333333;
-    text-decoration: none;
-}
+li img:hover {box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    transform: scale(1.03);}
 a {color:white;
     text-decoration: none;
 }
