@@ -190,6 +190,9 @@ img:hover {
         border-radius:10px;
         font-size:15px;
     }
+ li.mobile {
+    border: 2px solid #ff0000;
+}
     img {
         width: 400px;
     }
