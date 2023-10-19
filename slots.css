@@ -160,7 +160,8 @@ img:hover {
         height: 8vh;
         margin-top: -3vh;
     } 
-    .sidebar img {width:135px;}
+    .sidebar img {width:135px;
+                 }
     .sidebar ul {
         list-style: none;
         padding: 0;
@@ -172,7 +173,8 @@ img:hover {
         display: inline-block;
         text-align: center;
         margin: 5px;
-        padding: 1px;
+        box-shadow: 1px 0px rgba(200, 200, 200, 0.5);
+        padding: 2px;
     }
     li {
         color: #fff; /* Texto preto */
