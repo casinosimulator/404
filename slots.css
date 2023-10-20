@@ -38,7 +38,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    border-bottom: 1px solid #3d3030; /* Adiciona a borda branca fina na parte inferior */
+    border-bottom: 1px solid #385171 /* Adiciona a borda branca fina na parte inferior */
 }
 .logo {
     display: flex;
@@ -52,7 +52,7 @@ logo img {
 .sidebar {
     width: 22%;
     background-color: #192733;
-    border-bottom: 1px solid #3d3030;
+    border-bottom: 1px solid #385171;
     position: fixed;
     top: 10.6vh;
     bottom: 0;
