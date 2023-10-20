@@ -38,7 +38,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    border-bottom: 1px solid white; /* Adiciona a borda branca fina na parte inferior */
+    border-bottom: 1px solid #3d3030; /* Adiciona a borda branca fina na parte inferior */
 }
 .logo {
     display: flex;
