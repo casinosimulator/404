@@ -52,7 +52,7 @@ logo img {
 .sidebar {
     width: 22%;
     background-color: #192733;
-    box-shadow: 1px 0px rgba(200, 200, 200, 0.5);
+    border-bottom: 1px solid #3d3030;
     position: fixed;
     top: 10.6vh;
     bottom: 0;
