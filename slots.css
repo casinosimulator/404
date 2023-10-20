@@ -8,7 +8,7 @@
 }
 
 ::-webkit-scrollbar-track {
-    background: #666; /* Cor da trilha da barra de rolagem */
+    background: #385171; /* Cor da trilha da barra de rolagem */
 }
 
 /* Estilizando a barra de rolagem horizontal (opcional) */
@@ -21,7 +21,7 @@
 }
 
 ::-webkit-scrollbar-track:horizontal {
-    background: #9daab6; /* Cor da trilha da barra de rolagem horizontal */
+    background: #385171; /* Cor da trilha da barra de rolagem horizontal */
 }
 
 
