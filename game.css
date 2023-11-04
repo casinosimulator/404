@@ -23,7 +23,45 @@
 ::-webkit-scrollbar-track:horizontal {
     background: #9daab6; /* Cor da trilha da barra de rolagem horizontal */
 }
+/* Estilos para o modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
 
+.modal-content {
+    background: #000;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; /* Cor do texto em branco */
+    border: 2px solid #385171; /* Contorno vermelho */
+    box-shadow: 0 0 10px #385171; /* Sombra vermelha */
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #385171; /* Cor de fundo vermelha */
+    color: #fff; /* Cor do texto em branco */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Cursor de mão para indicar que é um botão */
+    transition: background-color 0.3s; /* Efeito de transição de cor de fundo */
+}
+
+.btn:hover {
+    background-color: #05172f; /* Cor de fundo alterada quando o mouse passa por cima */
+}
 
 body {
     margin: 0;
