@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Lidar com o clique no botão "Jogar Dinheiro Real"
     jogarDinheiroRealButton.addEventListener("click", function() {
-        window.location.href = "https://gml-grp.com/C.ashx?btag=a_34857b_1821c_&affid=11229&siteid=34857&adid=620&c=cassino", "_blank";;
+        window.location.href = "https://gml-grp.com/C.ashx?btag=a_34857b_1821c_&affid=11229&siteid=34857&adid=620&c=cassino", "_blank";
 
     // Lidar com o clique no botão "Dinheiro Virtual"
     dinheiroVirtualButton.addEventListener("click", function() {
