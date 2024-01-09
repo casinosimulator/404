@@ -11,15 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
       // Abre o primeiro link em uma nova aba
   window.open("https://www.betano.com", "_blank");
 
-  // Abre o segundo link na mesma aba
-  window.location = "https://casinosimulator.net/red-aviator";
-
-        // Abre o segundo link na mesma aba
-  window.location = "https://casinosimulator.net/";
+// Abre o segundo link em uma nova aba
+  window.open("https://www.betano.com", "_blank");
 });
-
-    // Lidar com o clique no botão "Dinheiro Virtual"
-    dinheiroVirtualButton.addEventListener("click", function() {
-        modal.style.display = "none"; // Fecha o modal
-    });
 });
