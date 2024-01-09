@@ -4,21 +4,16 @@
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9SHMSSE474"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-9SHMSSE474');
-</script>
-<script>
-  function redirectToGoogle() {
-  window.open("https://www.google.com";)
-}
-
-if (document.cookie.indexOf("firstLoad") == -1) {
-  // Cookie não existe, então é a primeira vez que o site é aberto
-  document.cookie = "firstLoad=true; expires=Tue, 08 Jan 2025 23:59:59 GMT; path=/";
-  redirectToGoogle();
+function alertaGoogle() {
+  // Verifica se o alerta já foi exibido
+  if (!localStorage.getItem("alerta-google")) {
+    // Exibe o alerta
+    alert("Bem-vindo ao nosso site! Clique aqui para acessar o Google.");
+    // Salva que o alerta já foi exibido
+    localStorage.setItem("alerta-google", "true");
+    // Redireciona para o site do Google em nova aba
+    window.open("https://www.google.com/");
+  }
 }
 </script>
     <meta charset="UTF-8">
@@ -29,8 +24,6 @@ if (document.cookie.indexOf("firstLoad") == -1) {
     <title> Casino Simulator | Teste os Melhores Slots Sem Risco</title>
 </head>
 <body>
-    <button id="botao-alerta">Clique aqui para ver o alerta</button>
-  <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">Acessar o Google</a>
     <header>
         <div class="logo">
             <a href="https://casinosimulator.net/">
