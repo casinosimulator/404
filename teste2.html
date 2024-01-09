@@ -2,31 +2,10 @@
 <html lang="pt-BR">
 <head>
     <script>
-function alertBetano() {
-  // Define o título do alerta
-  const title = "Este site é patrocinado pela Betano";
-
-  // Define o texto do alerta
-  const text = "A Betano é uma empresa de apostas esportivas que oferece uma variedade de jogos e promoções. Para mais informações, visite o site da Betano.";
-
-  // Define o botão de OK
-  const button = document.createElement("button");
-  button.textContent = "Ok";
-  button.addEventListener("click", () => {
-    // Fecha o alerta
-    alert.close();
-  });
-
-  // Cria o alerta
-  const alert = new AlertDialog({
-    title,
-    text,
-    buttons: [button],
-  });
-
-  // Mostra o alerta
-  alert.show();
-}
+document.addEventListener("DOMContentLoaded", () => {
+  // Chama a função `alertBetano()`
+  alertBetano();
+});
     </script>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9SHMSSE474"></script>
