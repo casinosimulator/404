@@ -12,6 +12,6 @@ document.addEventListener("DOMContentLoaded", function() {
   window.open("https://www.betano.com", "_blank");
 
 // Abre o segundo link em uma nova aba
-  window.open("https://www.betano.com", "_blank");
+  window.open("https://www.google.com", "_blank");
 });
 });
