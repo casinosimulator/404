@@ -2,16 +2,30 @@
 <html lang="pt-BR">
 <head>
     <script>
-        function alertaGoogle() {
-  // Verifica se o alerta já foi exibido
-  if (!localStorage.getItem("alerta-betano")) {
-    // Exibe o alerta
-    alert("Bem-vindo ao nosso site! Clique aqui para acessar o Google.");
-    // Salva que o alerta já foi exibido
-    localStorage.setItem("alerta-betano", "true");
-    // Redireciona para o site do Google em nova aba
-    window.open("https://www.casinosimulator.net/betano");
-  }
+function alertBetano() {
+  // Define o título do alerta
+  const title = "Este site é patrocinado pela Betano";
+
+  // Define o texto do alerta
+  const text = "A Betano é uma empresa de apostas esportivas que oferece uma variedade de jogos e promoções. Para mais informações, visite o site da Betano.";
+
+  // Define o botão de OK
+  const button = document.createElement("button");
+  button.textContent = "Ok";
+  button.addEventListener("click", () => {
+    // Fecha o alerta
+    alert.close();
+  });
+
+  // Cria o alerta
+  const alert = new AlertDialog({
+    title,
+    text,
+    buttons: [button],
+  });
+
+  // Mostra o alerta
+  alert.show();
 }
     </script>
     <!-- Google tag (gtag.js) -->
