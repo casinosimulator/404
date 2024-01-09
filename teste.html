@@ -10,19 +10,15 @@
 
   gtag('config', 'G-9SHMSSE474');
 </script>
-<script>function alertaGoogle() {
-  // Verifica se o alerta já foi exibido
-  if (!localStorage.getItem("alerta-google")) {
-    // Exibe o alerta
-    alert("Esse Site é Patrocinado pela Betano");
-    // Salva que o alerta já foi exibido
-    localStorage.setItem("alerta-google", "true");
-    window.open("https://gml-grp.com/C.ashx?btag=a_34857b_1821c_&affid=11229&siteid=34857&adid=620&c=cassino", "_blank");
+<script>
+  // Função que exibe o alerta
+  function exibirAlerta() {
+    alert("Bem-vindo ao nosso site! Clique aqui para acessar o Google.");
   }
-}
 
-// Adiciona o evento de carregamento da página
-window.addEventListener("load", alertaGoogle);</script>
+  // Evento de clique no botão
+  document.getElementById("botao-alerta").addEventListener("click", exibirAlerta);
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Casino Simulator é o maior simulador de cassino online do mundo, teste os slots sem risco , conheça seus bônus e prêmios antes de apostar em um cassino real.">
@@ -31,6 +27,8 @@ window.addEventListener("load", alertaGoogle);</script>
     <title> Casino Simulator | Teste os Melhores Slots Sem Risco</title>
 </head>
 <body>
+    <button id="botao-alerta">Clique aqui para ver o alerta</button>
+  <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">Acessar o Google</a>
     <header>
         <div class="logo">
             <a href="https://casinosimulator.net/">
