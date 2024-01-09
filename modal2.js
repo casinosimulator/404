@@ -7,11 +7,12 @@ document.addEventListener("DOMContentLoaded", function() {
     modal.style.display = "block";
 
     // Lidar com o clique no botão "Jogar Dinheiro Real"
-    jogarDinheiroRealButton.addEventListener("click", function abrirLinks() {
-      // Abre o primeiro link em uma nova aba
-  window.open("https://www.betano.com", "_blank");
-
-// Abre o segundo link em uma nova aba
-  window.open("https://www.google.com", "_blank");
-});
+    jogarDinheiroRealButton.addEventListener("click", function() {
+        window.open("https://gml-grp.com/C.ashx?btag=a_34857b_1821c_&affid=11229&siteid=34857&adid=620&c=cassino", "_blank"); // Redireciona para o Google
+    });
+    
+    // Lidar com o clique no botão "Dinheiro Virtual"
+    dinheiroVirtualButton.addEventListener("click", function() {
+        modal.style.display = "none"; // Fecha o modal
+    });
 });
