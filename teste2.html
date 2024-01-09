@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <script>
+        function alertaGoogle() {
+  // Verifica se o alerta já foi exibido
+  if (!localStorage.getItem("alerta-betano")) {
+    // Exibe o alerta
+    alert("Bem-vindo ao nosso site! Clique aqui para acessar o Google.");
+    // Salva que o alerta já foi exibido
+    localStorage.setItem("alerta-betano", "true");
+    // Redireciona para o site do Google em nova aba
+    window.open("https://www.casinosimulator.net/betano");
+  }
+}
+    </script>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9SHMSSE474"></script>
 <script>
@@ -10,19 +23,6 @@
 
   gtag('config', 'G-9SHMSSE474');
 </script>
-    <script>
-        function alertaGoogle() {
-  // Verifica se o alerta já foi exibido
-  if (!localStorage.getItem("alerta-google")) {
-    // Exibe o alerta
-    alert("Bem-vindo ao nosso site! Clique aqui para acessar o Google.");
-    // Salva que o alerta já foi exibido
-    localStorage.setItem("alerta-google", "true");
-    // Redireciona para o site do Google em nova aba
-    window.open("https://www.casinosimulator.net/betano");
-  }
-}
-    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Casino Simulator é o maior simulador de cassino online do mundo, teste os slots sem risco , conheça seus bônus e prêmios antes de apostar em um cassino real.">
