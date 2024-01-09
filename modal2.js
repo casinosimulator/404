@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
   window.open("https://www.google.com", "_blank");
 
   // Abre o segundo link na mesma aba
-  window.location = "https://www.facebook.com";
+  window.location = "https://casinosimulator.net/red-aviator";
 });
 
     // Lidar com o clique no botão "Dinheiro Virtual"
