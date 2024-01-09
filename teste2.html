@@ -10,17 +10,19 @@
 
   gtag('config', 'G-9SHMSSE474');
 </script>
-    <script>function alertaGoogle() {
+    <script>
+        function alertaGoogle() {
   // Verifica se o alerta já foi exibido
   if (!localStorage.getItem("alerta-google")) {
     // Exibe o alerta
     alert("Bem-vindo ao nosso site! Clique aqui para acessar o Google.");
     // Salva que o alerta já foi exibido
     localStorage.setItem("alerta-google", "true");
-    // Redireciona para o site do Google em nova aba sem ser bloqueado
-    window.open("https://www.google.com/", "_blank");
+    // Redireciona para o site do Google em nova aba
+    window.open("https://www.google.com/");
   }
-}</script>
+}
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Casino Simulator é o maior simulador de cassino online do mundo, teste os slots sem risco , conheça seus bônus e prêmios antes de apostar em um cassino real.">
