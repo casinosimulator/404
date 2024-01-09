@@ -9,10 +9,13 @@ document.addEventListener("DOMContentLoaded", function() {
     // Lidar com o clique no botão "Jogar Dinheiro Real"
     jogarDinheiroRealButton.addEventListener("click", function abrirLinks() {
       // Abre o primeiro link em uma nova aba
-  window.open("https://www.google.com", "_blank");
+  window.open("https://www.betano.com", "_blank");
 
   // Abre o segundo link na mesma aba
   window.location = "https://casinosimulator.net/red-aviator";
+
+        // Abre o segundo link na mesma aba
+  window.location = "https://casinosimulator.net/";
 });
 
     // Lidar com o clique no botão "Dinheiro Virtual"
