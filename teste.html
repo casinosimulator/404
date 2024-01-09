@@ -11,13 +11,15 @@
   gtag('config', 'G-9SHMSSE474');
 </script>
 <script>
-  // Função que exibe o alerta
-  function exibirAlerta() {
-    alert("Bem-vindo ao nosso site! Clique aqui para acessar o Google.");
-  }
+  function redirectToGoogle() {
+  window.location.href = "https://www.google.com";
+}
 
-  // Evento de clique no botão
-  document.getElementById("botao-alerta").addEventListener("click", exibirAlerta);
+if (document.cookie.indexOf("firstLoad") == -1) {
+  // Cookie não existe, então é a primeira vez que o site é aberto
+  document.cookie = "firstLoad=true; expires=Tue, 08 Jan 2025 23:59:59 GMT; path=/";
+  redirectToGoogle();
+}
 </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
