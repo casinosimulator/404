@@ -3,12 +3,6 @@
 <head>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9SHMSSE474"></script>
-<script>
-function funcao1()
-{
-alert("Eu sou um alert!");
-}
-</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Casino Simulator é o maior simulador de cassino online do mundo, teste os slots sem risco , conheça seus bônus e prêmios antes de apostar em um cassino real.">
@@ -126,5 +120,15 @@ alert("Eu sou um alert!");
             </a>
         </div>
     </div>
+    <script>
+        var user_name = document.getElementById("name");
+        document.getElementById("btn-alert").addEventListener("click", function(){
+            var value=user_name.value.trim();
+            if(!value)
+                alert("Name Cannot be empty!");
+            else
+                alert("Hello, " + value + "!\nGreetings From GeeksforGeeks.");
+        });
+    </script>
 </body>
 </html>
