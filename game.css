@@ -62,7 +62,21 @@
 .btn:hover {
     background-color: #05172f; /* Cor de fundo alterada quando o mouse passa por cima */
 }
+button#dinheiro-real {
 
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #385171; /* Cor de fundo vermelha */
+    color: #fff; /* Cor do texto em branco */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Cursor de mão para indicar que é um botão */
+    transition: background-color 0.3s; /* Efeito de transição de cor de fundo */
+}
+
+button#dinheiro-real:hover {
+    background-color: #05172f; /* Cor de fundo alterada quando o mouse passa por cima */
+}
 body {
     margin: 0;
     padding: 0;
