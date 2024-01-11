@@ -74,3 +74,6 @@ a btn {
 a btn:hover {
     background-color: #05172f; /* Cor de fundo alterada quando o mouse passa por cima */
 }
+h6 {
+    margin-top: -2vh;
+}
