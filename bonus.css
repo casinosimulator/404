@@ -60,3 +60,17 @@ body {
 .btn:hover {
     background-color: #05172f; /* Cor de fundo alterada quando o mouse passa por cima */
 }
+.button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #385171;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none
+}
+.button:hover {
+    background-color: #05172f; /* Cor de fundo alterada quando o mouse passa por cima */
+}
