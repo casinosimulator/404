@@ -7,6 +7,7 @@ body {
             justify-content: flex-start;
             align-items: center;
             font-family: Arial, sans-serif;
+            background:#181e29;
         }
 
         #background-image {
