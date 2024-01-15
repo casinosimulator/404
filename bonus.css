@@ -9,7 +9,13 @@ body {
             font-family: Arial, sans-serif;
             background:#181e29;
         }
+body {
+  overflow: hidden;
+}
 
+::-webkit-scrollbar {
+  display: none;
+}
         #background-image {
             background-image: url('https://assets.gmlinteractive.com/2023/03/TVC_CS_GATES-2048x1152-English.jpg');
             background-size: cover;
