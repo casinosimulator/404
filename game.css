@@ -91,7 +91,7 @@ header {
     left: 0;
     width: 100%;
     border-bottom: 1px solid #385171; /* Adiciona a borda branca fina na parte inferior */
-    height: 5.5vh;
+    height: 5vh;
 }
 .logo {
     display: flex;
