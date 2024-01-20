@@ -14,6 +14,15 @@
             <a href="https://casinosimulator.net">
                 <img src="logo.png" alt="Sua Imagem" />
             </a>
+            <a href="#" onclick="toggleFullscreen()" data-icon="fullscreen">
+  <span style="color: white; font-size: 12px; font-weight: bold;">Tela Cheia</span>
+            </a>
+            <script>
+  function toggleFullscreen() {
+    document.documentElement.requestFullscreen();
+    window.scrollTo(0, 0);
+  }
+</script>
         </div>
     </header>
 </head>
