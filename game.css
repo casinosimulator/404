@@ -102,15 +102,13 @@ header {
 img {
     width: 40vh;
 }
-iframe {
-    width: 100%;
-    height: 95vh;
-    margin-top: 5vh;
+.fullscreen-icon {
+  height: 24px;
+  width: 24px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Full-screen_icon.svg/24px-Full-screen_icon.svg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
 }
-
-. fullscreen {
- color: white; 
- font-size: 25px;
 }
 
 @media (max-width: 768px) {
