@@ -17,32 +17,7 @@
     </header>
 </head>
 <body>
-    <button class="fullscreen-button">Tela cheia</button>
-    <script>
-    function createFullscreenButton() {
-  const button = document.createElement("button");
-  button.textContent = "Tela cheia";
-  button.addEventListener("click", toggleScreen);
 
-  // Adicione o botão ao documento
-  document.body.appendChild(button);
-}
-
-function toggleScreen() {
-  // Alterne o estado da tela cheia
-  document.querySelector("html").classList.toggle("full-screen");
-
-  // Se a tela estiver em tela cheia, oculte o botão
-  if (document.querySelector("html").classList.contains("full-screen")) {
-    document.querySelector(".fullscreen-button").style.display = "none";
-  } else {
-    document.querySelector(".fullscreen-button").style.display = "block";
-  }
-}
-
-createFullscreenButton();
-
-</script>
         <div id="modal" class="modal">
             <div class="modal-content">
                 <h2>Absolute Super Reels</h2>
