@@ -101,7 +101,7 @@ header {
 .fullscreen-icon {
   height: 24px;
   width: 24px;
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Full-screen_icon.svg/24px-Full-screen_icon.svg.png");
+  background-image: url("fullscreen.png");
   background-repeat: no-repeat;
   background-position: center center;
 }
