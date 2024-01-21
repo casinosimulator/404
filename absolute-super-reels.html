@@ -14,22 +14,7 @@
             <a href="https://casinosimulator.net">
                 <img src="logo.png" alt="Sua Imagem" />
             </a>
-            <div class="fullscreen-icon"></div>
-        </div>
-        <script>
-            const fullscreenIcon = document.querySelector(".fullscreen-icon");
-
-function toggleFullscreen() {
-  if (document.fullscreenElement) {
-    document.exitFullscreen();
-  } else {
-    document.documentElement.requestFullscreen();
-  }
-}
-
-fullscreenIcon.addEventListener("click", toggleFullscreen);
-
-        </script>
+            
     </header>
 </head>
 <body>
@@ -43,6 +28,33 @@ fullscreenIcon.addEventListener("click", toggleFullscreen);
         <div class="page-content">
             <iframe src="https://static-fun-stable.isoftbet.com/demo_presentation/stage/html/html5/typebet_absolute_super_reels/typebet_absolute_super_reels.html?name=1015,fun&password=fun&lang=pt&currency=BRL&funmode=true" frameborder="0"></iframe>
         </div>
+  <button class="fullscreen-button">Tela cheia</button>
+</body>
+<script>
+    function createFullscreenButton() {
+  const button = document.createElement("button");
+  button.textContent = "Tela cheia";
+  button.addEventListener("click", toggleScreen);
+
+  // Adicione o botão ao documento
+  document.body.appendChild(button);
+}
+
+function toggleScreen() {
+  // Alterne o estado da tela cheia
+  document.querySelector("html").classList.toggle("full-screen");
+
+  // Se a tela estiver em tela cheia, oculte o botão
+  if (document.querySelector("html").classList.contains("full-screen")) {
+    document.querySelector(".fullscreen-button").style.display = "none";
+  } else {
+    document.querySelector(".fullscreen-button").style.display = "block";
+  }
+}
+
+createFullscreenButton();
+
+</script>
         <script src="modal.js"></script>
     </body>
 </html
