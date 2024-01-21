@@ -17,10 +17,18 @@
             <a href="#" onclick="toggleFullscreen()" data-icon="fullscreen">
   <span style="color: white; font-size: 25px; font-weight: bold;"> ⛶ </span>            </a>
             <script>
-  function toggleFullscreen() {
+  const fullscreenIcon = document.querySelector(".fullscreen-icon");
+
+function toggleFullscreen() {
+  if (document.fullscreenElement) {
+    document.exitFullscreen();
+  } else {
     document.documentElement.requestFullscreen();
-    window.scrollTo(0, 0);
   }
+}
+
+fullscreenIcon.addEventListener("click", toggleFullscreen);
+
 </script>
         </div>
     </header>
