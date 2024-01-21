@@ -98,13 +98,6 @@ header {
     justify-content: center;
     align-items: center;
 }
-.fullscreen-icon {
-  height: 8px;
-  width: 8px;
-  background-image: url("oe9po62iednsbhqgm18bdtkfuk-fb37c5c350511c2b2f27afd7385d6f64.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-}
 
 img {
     width: 40vh;
