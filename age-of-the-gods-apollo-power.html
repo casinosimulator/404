@@ -15,37 +15,6 @@
                 <img src="logo.png" alt="Sua Imagem" />
             </a>
         </div>
-        <div>
-            <a id="toggleButton" onclick="toggleFullScreen()">Fullscreen ⛶</span></a>
-            </a>
-            <script>
-  function toggleFullScreen() {
-    const element = document.documentElement;
-    if (!document.fullscreenElement) {
-      // Se não estiver em tela cheia, entra em tela cheia
-      if (element.requestFullscreen) {
-        element.requestFullscreen();
-      } else if (element.mozRequestFullScreen) {
-        element.mozRequestFullScreen();
-      } else if (element.webkitRequestFullscreen) {
-        element.webkitRequestFullscreen();
-      } else if (element.msRequestFullscreen) {
-        element.msRequestFullscreen();
-      }
-    } else {
-      // Se já estiver em tela cheia, sai da tela cheia
-      if (document.exitFullscreen) {
-        document.exitFullscreen();
-      } else if (document.mozCancelFullScreen) {
-        document.mozCancelFullScreen();
-      } else if (document.webkitExitFullscreen) {
-        document.webkitExitFullscreen();
-      } else if (document.msExitFullscreen) {
-        document.msExitFullscreen();
-      }
-    }
-  }
-</script>
     </header>
 </head>
 <body>
