@@ -140,4 +140,7 @@ a#toggleButton {
     align-items: left;
     margin-left: -2em;
 }
+ img {
+    width: 34vh;
+}
 }
