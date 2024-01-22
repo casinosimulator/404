@@ -132,5 +132,12 @@ a#toggleButton {
     color: white;
    text-decoration: none;
    font-size:8px;
+  margin-right: -2em;
+}
+ .logo {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    margin-left: -2em;
 }
 }
