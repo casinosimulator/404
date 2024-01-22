@@ -114,7 +114,7 @@ a#toggleButton {
     color: white;
     text-decoration: none;
     margin-right: 3em;
-   font-size:2em;
+   font-size:1em;
 }
 
 }
@@ -130,7 +130,7 @@ a#toggleButton {
     }
  a#toggleButton {
     color: white;
-    text-decoration: none;
-   font-size:2px;
+   text-decoration: none;
+   font-size:8px;
 }
 }
