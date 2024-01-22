@@ -111,13 +111,6 @@ iframe {
     margin-top: 5vh;
 }
 
-.fullscreen-icon {
-  height: 24px;
-  width: 24px;
-  background-image: url("fullscreen.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-}
 }
 @media (max-width: 768px) {
     
