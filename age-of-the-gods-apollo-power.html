@@ -16,21 +16,14 @@
             </a>
         </div>
         <div>
-        <a href="#" onclick="toggleFullscreen()" data-icon="fullscreen">
-  <span class"fullscreen"> Fullscreen ⛶ </span></a></div>
+            <a href="#" onclick="toggleFullscreen()" data-icon="fullscreen">
+  <span style="color: white; font-size: 12px; font-weight: bold;">Tela Cheia⛶</span>
+            </a>
             <script>
-  const fullscreenIcon = document.querySelector(".fullscreen-icon");
-
-function toggleFullscreen() {
-  if (document.fullscreenElement) {
-    document.exitFullscreen();
-  } else {
+  function toggleFullscreen() {
     document.documentElement.requestFullscreen();
+    window.scrollTo(0, 0);
   }
-}
-
-fullscreenIcon.addEventListener("click", toggleFullscreen);
-
 </script>
     </header>
 </head>
