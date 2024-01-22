@@ -92,7 +92,7 @@ header {
     width: 100%;
     border-bottom: 1px solid #385171; /* Adiciona a borda branca fina na parte inferior */
     height: 5vh;
- display: flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -109,6 +109,11 @@ iframe {
     width: 100%;
     height: 95vh;
     margin-top: 5vh;
+}
+a#toggleButton {
+    color: white;
+    text-decoration: none;
+    margin-right: 3em;
 }
 
 }
