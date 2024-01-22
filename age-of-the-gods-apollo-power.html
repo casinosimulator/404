@@ -16,20 +16,36 @@
             </a>
         </div>
         <div>
-            <a href="#" onclick="toggleFullscreen()" data-icon="fullscreen">
-  <span style="color: white; font-size: 12px; font-weight: bold;">Tela Cheia⛶</span>
+            <a id="toggleButton" onclick="toggleFullScreen()">Tela Cheia ⛶</a>
+  <span style="color: white; font-size: 12px; font-weight: bold;">Tela Cheia</span>
             </a>
             <script>
-  const toggleButton = document.getElementById('toggleButton');
-  let isFullScreen = false;
-
-  toggleButton.addEventListener('click', () => {
-    if (!isFullScreen) {
-      enterFullScreen();
+  function toggleFullScreen() {
+    const element = document.documentElement;
+    if (!document.fullscreenElement) {
+      // Se não estiver em tela cheia, entra em tela cheia
+      if (element.requestFullscreen) {
+        element.requestFullscreen();
+      } else if (element.mozRequestFullScreen) {
+        element.mozRequestFullScreen();
+      } else if (element.webkitRequestFullscreen) {
+        element.webkitRequestFullscreen();
+      } else if (element.msRequestFullscreen) {
+        element.msRequestFullscreen();
+      }
     } else {
-      exitFullScreen();
+      // Se já estiver em tela cheia, sai da tela cheia
+      if (document.exitFullscreen) {
+        document.exitFullscreen();
+      } else if (document.mozCancelFullScreen) {
+        document.mozCancelFullScreen();
+      } else if (document.webkitExitFullscreen) {
+        document.webkitExitFullscreen();
+      } else if (document.msExitFullscreen) {
+        document.msExitFullscreen();
+      }
     }
-  });
+  }
 </script>
     </header>
 </head>
