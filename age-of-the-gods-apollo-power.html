@@ -20,10 +20,16 @@
   <span style="color: white; font-size: 12px; font-weight: bold;">Tela Cheia⛶</span>
             </a>
             <script>
-  function toggleFullscreen() {
-    document.documentElement.requestFullscreen();
-    window.scrollTo(0, 0);
-  }
+  const toggleButton = document.getElementById('toggleButton');
+  let isFullScreen = false;
+
+  toggleButton.addEventListener('click', () => {
+    if (!isFullScreen) {
+      enterFullScreen();
+    } else {
+      exitFullScreen();
+    }
+  });
 </script>
     </header>
 </head>
