@@ -156,6 +156,9 @@ img {
       margin-left: 2vh;
     }
 }
+svg {
+    margin-top: -1vh;
+}
 @media (max-width: 768px) {
     
     ::-webkit-scrollbar {
