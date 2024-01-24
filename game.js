@@ -44,7 +44,7 @@ if(document.fullscreenEnabled || document.webkitFullscreenEnabled) {
       var segundos = data.getSeconds().toString().padStart(2, '0');
 
       var relogioElemento = document.getElementById("relogio");
-      relogioElemento.textContent = `${horas}:${minutos}:${segundos}`;
+      relogioElemento.textContent = `${horas}:${minutos}`;
     }
 
     // Atualiza o relógio a cada segundo
