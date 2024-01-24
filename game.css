@@ -90,7 +90,7 @@ iframe {
    position: fixed;
    z-index: 10000;
    top: 2vh;
-   right: 2vh;
+       right: 2vh;
    border: 0;
    padding: 0;
    background: none;
