@@ -147,8 +147,9 @@ header {
 img {
     margin-top: 2px;
     display: flex;
-  justify-content: center;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
+    height: 11vh;
 }
 #relogio {
       font-family: 'Arial', sans-serif;
