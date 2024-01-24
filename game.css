@@ -33,12 +33,6 @@
    height: 100%;
    background: rgba(0, 0, 0, 0.7);
 }
-@font-face {
-  font-family: 'Playball';
-  src: url('https://fonts.google.com/specimen/Playball.ttf');
-  font-weight: 400;
-  font-style: normal;
-}
 .modal-content {
    background: #000;
    width: 300px;
@@ -95,7 +89,7 @@ iframe {
    position: fixed;
    z-index: 10000;
    top: 2vh;
-       right: 2vh;
+   right: 2vh;
    border: 0;
    padding: 0;
    background: none;
@@ -176,4 +170,29 @@ svg {
        width: 10px;
        height:2px;
    }
+   .toggle-fullscreen-btn {
+   position: fixed;
+   z-index: 10000;
+   top: 1vh;
+   border: 0;
+   padding: 0;
+   background: none;
+   cursor: pointer;
+   outline: none;
+   margin-right: 1vh;
+}
+   #relogio {
+     font-family: 'Arial', sans-serif;
+     font-size: 22px;
+     color: white;
+     margin-left: 1vh;
+   }
+   span{
+    color: white;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: -33px;
+}
 }
