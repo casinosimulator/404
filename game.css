@@ -146,7 +146,9 @@ header {
 }
 img {
     margin-top: 2px;
-    margin-left:25%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #relogio {
       font-family: 'Arial', sans-serif;
@@ -164,8 +166,4 @@ svg {
         width: 10px;
         height:2px;
     }
-	img {
-    margin-top: 2px;
-    margin-left:auto;
-}
 }
