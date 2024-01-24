@@ -90,8 +90,8 @@ iframe {
 .toggle-fullscreen-btn {
 	position: fixed;
 	z-index: 10000;
-	top: 10px;
-	right: 10px;
+	top: 1vh;
+        right: 2vh;
 	border: 0;
 	padding: 0;
 	background: none;
