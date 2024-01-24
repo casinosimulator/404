@@ -78,9 +78,12 @@ logo img {
     align-items: center;
     height: 7.5vh;
 }
-.container {
-    width: 100%;
-    margin: 0 auto;
-    background-color: #181e29;
-    margin-top: 60px;
+    img {
+        width: 400px;
+    }
+    .content {
+        width: 100%;
+        margin-left: 0px;
+        padding:0px;
+}
 }
