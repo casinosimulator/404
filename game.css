@@ -33,6 +33,7 @@
    height: 100%;
    background: rgba(0, 0, 0, 0.7);
 }
+
 .modal-content {
    background: #000;
    width: 300px;
@@ -88,7 +89,6 @@ iframe {
 .toggle-fullscreen-btn {
    position: fixed;
    z-index: 10000;
-   top: 1vh;
    right: 2vh;
    border: 0;
    padding: 0;
@@ -109,25 +109,6 @@ iframe {
    stroke: hsl(225, 10%, 8%);
    stroke-width: 4;
    transition: .15s;
-}
-.toggle-fullscreen-btn:hover path:nth-child(1),
-.toggle-fullscreen-btn:focus path:nth-child(1) {
-   transform: translate(-2px, -2px);
-}
-
-.toggle-fullscreen-btn:hover path:nth-child(2),
-.toggle-fullscreen-btn:focus path:nth-child(2) {
-   transform: translate(2px, -2px);
-}
-
-.toggle-fullscreen-btn:hover path:nth-child(3),
-.toggle-fullscreen-btn:focus path:nth-child(3) {
-   transform: translate(2px, 2px);
-}
-
-.toggle-fullscreen-btn:hover path:nth-child(4),
-.toggle-fullscreen-btn:focus path:nth-child(4) {
-   transform: translate(-2px, 2px);
 }
 
 
@@ -162,7 +143,19 @@ a {
    }
 
 svg {
-   margin-top: -0.5vh;
+display: flex;
+margin-top: -2.1em;
+}
+img {
+width: 230px;
+height: 28px;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+margin-top: -28px;
+}
+.logo {
+   height: 32px;
 }
 @media (max-width: 768px) {
    
@@ -170,30 +163,4 @@ svg {
        width: 10px;
        height:2px;
    }
-   .toggle-fullscreen-btn {
-   position: fixed;
-   z-index: 10000;
-   top: 1vh;
-   border: 0;
-   padding: 0;
-   background: none;
-   cursor: pointer;
-   outline: none;
-   margin-right: 1vh;
-}
-   #relogio {
-     font-family: 'Arial', sans-serif;
-     font-size: 22px;
-     color: white;
-     margin-left: 1vh;
-   }
-   span{
-    color: white;
-    font-size: 22px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin-top: -33px;
-      margin-left:5px;
-}
 }
