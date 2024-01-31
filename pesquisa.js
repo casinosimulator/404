@@ -18,9 +18,29 @@ function searchImages() {
       { src: 'https://static.gambling-malta.com/casino/CasinoGameScientificGames/GameId_9701/Background_1677853103.jpg', alt: 'Broods of Gods', link: 'brood-of-gods' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameNetEntEvo/GameId_5856/Background_1675942063.jpg', alt: 'Divine Fortune Megaways', link: 'divine-fortune-megaways' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameWazdan/GameId_6053/Background_1644231460.jpg', alt: 'Dracula s Castle', link: 'draculas-castle' },
-      { src: 'image3.jpg', alt: 'orange', link: 'https://www.youtube.com/' },
-      { src: 'image3.jpg', alt: 'orange', link: 'https://www.youtube.com/' },
-      { src: 'image3.jpg', alt: 'orange', link: 'https://www.youtube.com/' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGameGamomat/GameId_10548/Background_1686036819.jpg', alt: 'Fengs Fortune', link: 'fengs-fortune' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGamePlayNGo/GameId_1830/Background_1618476156.jpg', alt: 'Gates of Olympus', link: 'game-of-gladiators' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGamePlaytech/GameId_12062/Background_1698405958.jpg', alt: 'Gold Hit And Link JP bacon And CO', link: 'gold-hit-and-link-j-p-bacon-and-co' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGamePlaytech/GameId_9198/Background_1674462280.jpg', alt: 'Gold Rush: Cash Collect™', link: 'gold-rush-cash-collect' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGameNetEntEvo/GameId_5835/Background_1675942823.jpg', alt: 'Jack Potter and the Book of Nubia', link: 'gonzosquest' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGameBlueprint/GameId_11995/Background_1697806159.jpg', alt: 'King Kong Cash Even Bigger Bananas', link: 'king-kong-cash-even-bigger-bananas' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGamePlaytech/GameId_3228/Background_1615453803.jpg', alt: 'Mega Fire Blaze Khonsu God of Moon', link: 'mega-fire-blaze-khonsu-god-of-moon' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGameOryx/GameId_2582/Background_1623147947.jpg', alt: 'Mission Atlantis', link: 'mission-atlantis' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGameGamomat/GameId_8644/Background_1670583572.jpg', alt: 'Nordic Fire', link: 'nordic-fire' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGamePlayNGo/GameId_9524/Background_1677235193.jpg', alt: 'Pandoras Box of Evil', link: 'pandoras-box-of-evil' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGameScientificGames/GameId_3453/Background_1619013414.jpg', alt: 'Perfect Potions Megaways', link: 'perfect-potions-megaways' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGamePlaytech/GameId_11120/Background_1690538322.jpg', alt: 'Piggies And The Bank Mega Fire Blaze', link: 'piggies-and-the-bank-mega-fire-blaze' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGameGamomat/GameId_2665/Background_1623142351.jpg', alt: 'Ramses Book', link: 'ramses-book' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGameBGaming/GameId_11754/Background_1695898781.jpg', alt: 'Savage Buffalo Spirit Megaways', link: 'savage-buffalo-spirit-megaways' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGameNetEntEvo/GameId_5944/Background_1675941920.jpg', alt: 'Starburst', link: 'starburst' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGameiSoftBet-Oryx/GameId_13244/Thumbnail_1704453671630.jpg', alt: 'Team Winfast', link: 'team-winfast' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGamePragmatic/GameId_13182/Thumbnail_1704698980671.jpg', alt: 'The Big Dawgs', link: 'the-big-dawgs' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGameBlueprint/GameId_2235/Background_1623061734.jpg', alt: 'The Goonies', link: 'the-goonies' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGameScientificGames/GameId_3842/Background_1621927074.jpg#CasinoGameScientificGames/GameId_3842/Mini_1706105597380.jpg', alt: 'Ultra Blazing Fire Link', link: 'ultra-blazing-fire-link' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGameISoftBet/GameId_4121/Background_1628072727.jpg', alt: 'Wild Hammer Megaways', link: 'wild-hammer-megaways' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGameBlueprint/GameId_2221/Background_1623062013.jpg', alt: 'Wish Upon a Jackpot MegaWays', link: 'wish-upon-a-jackpot-megaways' },
+
+    
       // Add more image data as needed
     ];
   
