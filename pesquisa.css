@@ -228,6 +228,8 @@ li.mobile {
       padding:0px;
 }
 .group img {width:12em;
-  grid-area:100%;
+ grid-area:100%;
+ margin-bottom: 0.4em;
+}
 }
 }
