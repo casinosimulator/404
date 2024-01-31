@@ -152,27 +152,6 @@ transform: scale(1.05);
 .group img {width:20em;
 max-width:100%;}
 
-footer {
-  background-color: transparent;
-  padding: 20px;
-  text-align: center;
-  height: 5vh;
-  width: 100%;
-}
-
-button {
-  padding: 10px 20px;
-  background-color: #3498db;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-button:hover {
-  background-color: #2980b9;
-}
 @media (max-width: 768px) {
   
   ::-webkit-scrollbar {
@@ -235,7 +214,7 @@ li.mobile {
   .image-container {
       display: flex;
       flex-wrap: wrap;
-      justify-content: flex-start;
+      justify-content: center;
       margin-top: 16vh;
   }
   .image-container a {
