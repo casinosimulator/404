@@ -199,7 +199,7 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer:img {transform: scale(1.05);
     border: 2px solid #ff0000;
 }
     img {
-        width: 300px;
+        width: 280px;
     }
     .image-container {
         display: flex;
