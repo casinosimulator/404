@@ -60,6 +60,19 @@ a {color:white;
 logo img {
         width: 500px;
     }
+img {
+    border-radius: 10px;
+}
+img:hover {
+  transform: scale(1.05);
+}
+svg.base-icon-svg.tw-block.tw-cursor-pointer {
+    width: 26em;
+    height: 3em;
+    margin-top: 1.2vh;
+}
+svg.base-icon-svg.tw-block.tw-cursor-pointer:img {transform: scale(1.05);
+}
 
 @media (max-width: 768px) {
     
@@ -86,5 +99,10 @@ logo img {
     margin: 0 auto;
     background-color: #181e29;
     margin-top: 60px;
+}
+    svg.base-icon-svg.tw-block.tw-cursor-pointer {
+    width: 5em;
+    height: 1.5em;
+    margin-top: 1.2vh;
 }
 }
