@@ -227,7 +227,7 @@ li.mobile {
   border: 2px solid #ff0000;
 }
   img {
-      width: 290px;
+      width: 280px;
   }
   .image-container {
       display: flex;
@@ -250,12 +250,12 @@ li.mobile {
  margin-bottom: 0.4em;
 }
 svg {
-    width: 4em;
+    width: 4.2em;
     height: 1em;
 }
  svg.base-icon-svg.tw-block.tw-cursor-pointer {
-    width: 4em;
+    width: 4.2em;
     height: 1.5em;
-    margin-top: 0.4vh;
+    margin-top: 0.6vh;
 }
 }
