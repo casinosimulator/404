@@ -250,12 +250,12 @@ li.mobile {
  margin-bottom: 0.4em;
 }
 svg {
-    width: 4.2em;
+    width: 4.5em;
     height: 1em;
 }
  svg.base-icon-svg.tw-block.tw-cursor-pointer {
-    width: 4.2em;
+    width: 4.5em;
     height: 1.5em;
-    margin-top: 0.6vh;
+    margin-top: 0.8vh;
 }
 }
