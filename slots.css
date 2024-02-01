@@ -139,7 +139,8 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer {
     height: 3em;
     margin-top: 1.2vh;
 }
-
+svg.base-icon-svg.tw-block.tw-cursor-pointer:img {transform: scale(1.05);
+}
 
 @media (max-width: 768px) {
     
@@ -220,10 +221,5 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer {
     width: 5em;
     height: 1.5em;
     margin-top: 1.2vh;
-}
-svg {
-    width: 5em;
-    height: 1em;
-    margin-top:0.1vh
 }
 }
