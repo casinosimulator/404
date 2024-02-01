@@ -142,6 +142,11 @@ transform: scale(1.05);
   border-radius: 10px;
   box-sizing: border-box; /* Inclui padding e bordas na largura total */
 }
+input#searchInput {
+    background: #181e29;
+    color: white;
+    border-color: #385171;
+}
 
 .search {
   width: 100%;
