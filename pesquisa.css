@@ -145,7 +145,6 @@ transform: scale(1.05);
 input#searchInput {
     background: #181e29;
     color: white;
-    border-color: #385171;
 }
 
 .search {
