@@ -198,7 +198,7 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer {
     border: 2px solid #ff0000;
 }
     img {
-        width: 400px;
+        width: 250px;
     }
     .image-container {
         display: flex;
@@ -215,5 +215,15 @@ svg.base-icon-svg.tw-block.tw-cursor-pointer {
         width: 100%;
         margin-left: 0px;
         padding:0px;
+}
+ svg.base-icon-svg.tw-block.tw-cursor-pointer {
+    width: 10em;
+    height: 1em;
+    margin-top: 1.2vh;
+}
+svg {
+    width: 10em;
+    height: 0.8em;
+    margin-top:0.1vh
 }
 }
