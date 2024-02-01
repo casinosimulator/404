@@ -237,5 +237,9 @@ li.mobile {
  grid-area:100%;
  margin-bottom: 0.4em;
 }
+svg {
+    width: 5em;
+    height: 1em;
+    margin-top:0.1vh
 }
 }
