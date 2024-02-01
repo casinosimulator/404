@@ -220,7 +220,7 @@ li.mobile {
   border: 2px solid #ff0000;
 }
   img {
-      width: 300px;
+      width: 280px;
   }
   .image-container {
       display: flex;
@@ -248,7 +248,7 @@ svg {
     margin-top:0.1vh
 }
  svg.base-icon-svg.tw-block.tw-cursor-pointer {
-    width: 5em;
+    width: 4em;
     height: 1.5em;
     margin-top: 1.2vh;
 }
