@@ -152,6 +152,12 @@ transform: scale(1.05);
 .group img {width:20em;
 max-width:100%;}
 
+svg {
+    width: 26em;
+    height: 2.5em;
+    margin-top:0.1vh
+}
+
 @media (max-width: 768px) {
   
   ::-webkit-scrollbar {
