@@ -158,6 +158,16 @@ margin-top: -28px;
 .logo {
    height: 32px;
 }
+.rtp{border: 2px solid #385171;
+    box-shadow: 0 0 10px #385171; 
+    background-color: #000;
+    color:#fff;
+     padding: 10px; font-family: Arial, sans-serif; 
+     font-size: 16px;
+   text-align:start;
+}
+.rtp b {color:#dcb76c;}
+
 @media (max-width: 768px) {
    
    ::-webkit-scrollbar {
