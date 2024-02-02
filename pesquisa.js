@@ -47,22 +47,22 @@ function searchImages() {
     ];
   
     if (searchTerm !== '') {
-        imageData.forEach(function (image) {
-          if (image.alt.toLowerCase().includes(searchTerm)) {
-            var imgElement = document.createElement('img');
-            imgElement.src = image.src;
-            imgElement.alt = image.alt;
-    
-            var linkElement = document.createElement('a');
-            linkElement.href = image.link + encodeURIComponent(image.alt);
-            linkElement.target = '_blank';
-            linkElement.appendChild(imgElement);
-    
-            imageContainer.appendChild(linkElement);
-          }
-        });
-      } else {
-        // Se o termo de pesquisa estiver em branco, você pode decidir o que fazer aqui
-        console.log("O termo de pesquisa está em branco. Nenhuma busca será realizada.");
-      }
+  imageData.forEach(function (image) {
+    if (image.alt.toLowerCase().includes(searchTerm)) {
+      var imgElement = document.createElement('img');
+      imgElement.src = image.src;
+      imgElement.alt = image.alt;
+
+      var linkElement = document.createElement('a');
+      linkElement.href = image.link;
+      linkElement.target = '_blank';
+      linkElement.appendChild(imgElement);
+
+      imageContainer.appendChild(linkElement);
     }
+  });
+} else {
+  // Se o termo de pesquisa estiver em branco, você pode decidir o que fazer aqui
+  console.log("O termo de pesquisa está em branco. Nenhuma busca será realizada.");
+}
+}
