@@ -38,6 +38,7 @@ function searchImages() {
       { src: 'https://static.gambling-malta.com/casino/CasinoGameiSoftBet-Oryx/GameId_13244/Thumbnail_1704453671630.jpg', alt: 'Team Winfast', link: 'team-winfast' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePragmatic/GameId_13182/Thumbnail_1704698980671.jpg', alt: 'The Big Dawgs', link: 'the-big-dawgs' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameBlueprint/GameId_2235/Background_1623061734.jpg', alt: 'The Goonies', link: 'the-goonies' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGameRedTiger/GameId_5773/Background_1643716915.png', alt: 'Thors Vengeance', link: 'thors-vengeance' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameScientificGames/GameId_3842/Background_1621927074.jpg#CasinoGameScientificGames/GameId_3842/Mini_1706105597380.jpg', alt: 'Ultra Blazing Fire Link', link: 'ultra-blazing-fire-link' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameISoftBet/GameId_4121/Background_1628072727.jpg', alt: 'Wild Hammer Megaways', link: 'wild-hammer-megaways' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameBlueprint/GameId_2221/Background_1623062013.jpg', alt: 'Wish Upon a Jackpot MegaWays', link: 'wish-upon-a-jackpot-megaways' },
