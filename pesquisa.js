@@ -46,20 +46,18 @@ function searchImages() {
       // Add more image data as needed
     ];
   
-    if (searchTerm.trim() !== '') {
     imageData.forEach(function (image) {
       if (image.alt.toLowerCase().includes(searchTerm)) {
         var imgElement = document.createElement('img');
         imgElement.src = image.src;
         imgElement.alt = image.alt;
-
+  
         var linkElement = document.createElement('a');
-        linkElement.href = image.link + encodeURIComponent(image.alt);
+        linkElement.href = image.link;
         linkElement.target = '_blank';
         linkElement.appendChild(imgElement);
-
+  
         imageContainer.appendChild(linkElement);
       }
     });
-  }
 }
