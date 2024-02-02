@@ -63,7 +63,3 @@ function searchImages() {
     });
   }
 }
-        imageContainer.appendChild(linkElement);
-      }
-    });
-}
