@@ -139,6 +139,7 @@ transform: scale(1.05);
   padding: 10px;
   margin: 10px;
   width: 100%; /* Tamanho ajustável */
+  border: 1px solid white; /* Alterado para aplicar a borda a todos os lados */
   border-radius: 10px;
   box-sizing: border-box; /* Inclui padding e bordas na largura total */
 }
