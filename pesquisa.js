@@ -24,6 +24,7 @@ function searchImages() {
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePlaytech/GameId_12062/Background_1698405958.jpg', alt: 'Gold Hit And Link JP bacon And CO', link: 'gold-hit-and-link-j-p-bacon-and-co' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePlaytech/GameId_9198/Background_1674462280.jpg', alt: 'Gold Rush: Cash Collect™', link: 'gold-rush-cash-collect' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameNetEntEvo/GameId_5835/Background_1675942823.jpg', alt: 'Gonzo Quest', link: 'gonzosquest' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGameNetEntEvo/GameId_5903/Background_1643718107.png', alt: 'Jack Hammer 2 Fishy Business', link: 'jack-hammer-2-fishy-business' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePariPlay/GameId_11878/Background_1697191579.jpg', alt: 'Jack Potter and the Book of Nubia', link: 'jack-potter-and-the-book-of-nubia' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameBlueprint/GameId_11995/Background_1697806159.jpg', alt: 'King Kong Cash Even Bigger Bananas', link: 'king-kong-cash-even-bigger-bananas' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePlaytech/GameId_3228/Background_1615453803.jpg', alt: 'Mega Fire Blaze Khonsu God of Moon', link: 'mega-fire-blaze-khonsu-god-of-moon' },
