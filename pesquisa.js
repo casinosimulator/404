@@ -26,6 +26,7 @@ function searchImages() {
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePlaytech/GameId_9198/Background_1674462280.jpg', alt: 'Gold Rush: Cash Collect™', link: 'gold-rush-cash-collect' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameNetEntEvo/GameId_5835/Background_1675942823.jpg', alt: 'Gonzo Quest', link: 'gonzosquest' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePlaytech/GameId_427/Thumbnail_1701763321770.jpg', alt: 'Halloween Fortune', link: 'halloween-fortune' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGameSpribe/GameId_10695/Background_1688556997.jpg', alt: 'Crash Hi Lo', link: 'hilo' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameNetEntEvo/GameId_5903/Background_1643718107.png', alt: 'Jack Hammer 2 Fishy Business', link: 'jack-hammer-2-fishy-business' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePariPlay/GameId_11878/Background_1697191579.jpg', alt: 'Jack Potter and the Book of Nubia', link: 'jack-potter-and-the-book-of-nubia' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameBlueprint/GameId_11995/Background_1697806159.jpg', alt: 'King Kong Cash Even Bigger Bananas', link: 'king-kong-cash-even-bigger-bananas' },
