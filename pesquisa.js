@@ -36,6 +36,7 @@ function searchImages() {
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePlayNGo/GameId_9524/Background_1677235193.jpg', alt: 'Pandoras Box of Evil', link: 'pandoras-box-of-evil' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameScientificGames/GameId_3453/Background_1619013414.jpg', alt: 'Perfect Potions Megaways', link: 'perfect-potions-megaways' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePlaytech/GameId_11120/Background_1690538322.jpg', alt: 'Piggies And The Bank Mega Fire Blaze', link: 'piggies-and-the-bank-mega-fire-blaze' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGameWazdan/GameId_4750/Background_1649153484.jpg', alt: 'Power Of Gods Hades', link: 'power-of-gods-hades' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameGamomat/GameId_2665/Background_1623142351.jpg', alt: 'Ramses Book', link: 'ramses-book' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameBGaming/GameId_11754/Background_1695898781.jpg', alt: 'Savage Buffalo Spirit Megaways', link: 'savage-buffalo-spirit-megaways' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameNetEntEvo/GameId_5944/Background_1675941920.jpg', alt: 'Starburst', link: 'starburst' },
