@@ -124,6 +124,7 @@ header {
    width: 100%;
    height: 30;
    position:fixed;
+   display:none;
 }
 span{
     color: white;
@@ -174,7 +175,4 @@ margin-top: -28px;
        width: 10px;
        height:2px;
    }
-   header {
-   display:none;
-}
 }
