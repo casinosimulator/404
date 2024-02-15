@@ -124,7 +124,6 @@ header {
    width: 100%;
    height: 30;
    position:fixed;
-   display:none;
 }
 span{
     color: white;
@@ -175,4 +174,11 @@ margin-top: -28px;
        width: 10px;
        height:2px;
    }
+   header {
+   background-color: #181e29;
+   width: 100%;
+   height: 10;
+   position:fixed;
+   display:none;
+}
 }
