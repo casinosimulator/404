@@ -17,6 +17,7 @@ function searchImages() {
       { src: 'https://static.gambling-malta.com/casino/CasinoGameScientificGames/GameId_9701/Background_1677853103.jpg', alt: 'Broods of Gods', link: 'brood-of-gods' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameNetEntEvo/GameId_5856/Background_1675942063.jpg', alt: 'Divine Fortune Megaways', link: 'divine-fortune-megaways' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameWazdan/GameId_6053/Background_1644231460.jpg', alt: 'Dracula s Castle', link: 'draculas-castle' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGameOryx/GameId_7936/Background_1684929852.jpg', alt: 'Egyptian Magic', link: 'egyptian-magic' }
       { src: 'https://static.gambling-malta.com/casino/CasinoGameGamomat/GameId_10548/Background_1686036819.jpg', alt: 'Fengs Fortune', link: 'fengs-fortune' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePlayNGo/GameId_1830/Background_1618476156.jpg', alt: 'Game of Gladiators', link: 'game-of-gladiators' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePragmaticPlay/GameId_3588/Background_1619512420.jpg', alt: 'Gates of Olympus', link: 'gates-of-olympus' },
