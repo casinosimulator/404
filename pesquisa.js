@@ -10,6 +10,7 @@ function searchImages() {
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePlaytech/GameId_6498/Background_1647010348.jpg', alt: 'Age of the Gods Maze Keeper', link: 'age-of-the-gods-maze-keeper' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePlaytech/GameId_11595/Background_1694772767.jpg', alt: 'Animal Instinct', link: 'animal-instinct' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameSpribe/GameId_3337/Background_1688559153.jpg', alt: 'Crash Aviator', link: 'aviator' },
+      { src: 'https://static.gambling-malta.com/casino/CasinoGameiSoftBet-Oryx/GameId_13721/Thumbnail_1706174196636.jpg', alt: 'Bad Bass', link: 'bad-bass' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGamePragmaticPlay/GameId_7207/Background_1655466135.jpg', alt: 'Big Bass Splash', link: 'big-bass-splash' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameISoftBet/GameId_11013/Background_1691567901.jpg', alt: 'Bison Valley', link: 'bison-valley' },
       { src: 'https://static.gambling-malta.com/casino/CasinoGameRedTiger/GameId_9200/Background_1674462839.jpg', alt: 'Blood Suckers Megaways', link: 'blood-sucker-megaways' },
